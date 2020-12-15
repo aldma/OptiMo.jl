@@ -1,3 +1,5 @@
+# from NLPModels
+
 export DimensionError, @lencheck
 
 struct DimensionError <: Exception
@@ -35,9 +37,3 @@ macro rangecheck(lo, hi, vars...)
   end
   Expr(:block, exprs...)
 end
-
-
-
-
-
-

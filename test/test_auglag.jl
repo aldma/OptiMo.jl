@@ -1,8 +1,6 @@
-push!(LOAD_PATH,"/home/albertodm/Documents/optimo/src");
-
 using OptiMo
-
-using CUTEst, Random
+using Random
+using CUTEst
 
 # problem
 problems = CUTEst.select( min_var=1, max_var=10, min_con=1, max_con=10 );

@@ -1,7 +1,4 @@
-push!(LOAD_PATH,"/home/alberto/Documents/optimo/src");
-
 using OptiMo
-
 using CUTEst
 
 # problempus

@@ -1,3 +1,4 @@
+# based on NLPModels
 
 export is_unconstrained
 
@@ -47,4 +48,3 @@ end
 """
 is_unconstrained(meta::OptiModelMeta) = meta.ncon == 0
 is_unconstrained(prob::AbstractOptiModel) = is_unconstrained( prob.meta )
-

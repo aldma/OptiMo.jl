@@ -16,7 +16,7 @@ export NLPOptiModel
 #
 #    prob = NLPOptiModel( nlp )
 #
-#  returns an NLPOptiModel <: AbstractOptiModel ´prob´ representing the same problem 
+#  returns an NLPOptiModel <: AbstractOptiModel ´prob´ representing the same problem
 #  in the form
 #
 #    optimize   f(x) + g(x)
@@ -27,7 +27,7 @@ export NLPOptiModel
 #    g = indBox( xl, xu )
 #    S = Box( cl, cu )
 #
-#  In addition to keeping `meta` as any OptiModel, an NLPOptiModel 
+#  In addition to keeping `meta` as any OptiModel, an NLPOptiModel
 #  also stores ´base´, the original problem ´nlp´.
 
 # Type
@@ -97,5 +97,3 @@ end
 #  for meth in (:obj, :grad!, :cons!, :jprod!, :jtprod!)
 #    @eval NLPOptiMo.$meth(prob::NLPOptiModel, ) = NLPModels.$meth(prob.base, )
 #  end
-
-

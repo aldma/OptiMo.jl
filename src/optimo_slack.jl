@@ -13,7 +13,7 @@ export SlackOptiModel
   #
   #  optimize     F(X) + G(X)
   #  subject to   C(X) = 0
-  #  
+  #
   # where
   #  X = [x, s]
   #  F(X) = f(x)
@@ -151,12 +151,3 @@ function dist(prob::SlackOptiModel, v::AbstractVector)
   @lencheck prob.meta.ncon v
   return norm( v )
 end
-
-
-
-
-
-
-
-
-

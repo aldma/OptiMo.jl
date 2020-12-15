@@ -10,6 +10,6 @@ An ```AbstractOptiModel``` represents problems in the form
 ```
 where ```f(x): Rⁿ --> R``` is a smooth objective function, ```g(x): Rⁿ --> R ∪ ∞``` is a proximable objective function, ```c(x): Rⁿ --> Rᵐ``` are the constraint functions, and ```S ⊆ Rᵐ``` is a closed set.
 
-
-See also [JuMP](https://jump.dev/) and 
-[NLPModels](https://github.com/JuliaSmoothOptimizers/NLPModels.jl).
+### See also
+- [JuMP](https://jump.dev/),
+- [NLPModels](https://github.com/JuliaSmoothOptimizers/NLPModels.jl).
